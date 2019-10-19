@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pd.chatapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Chat" />
+        <activity android:name=".DisplayUsers" />
+        <activity android:name=".Home" />
+        <activity android:name=".CreateRequest" />
+        <activity android:name=".ManageVehicle" />
+        <activity android:name=".ProHome" />
+        <activity android:name=".ProRemove" />
+        <activity android:name=".ViewRequests" />
+        <activity android:name=".ViewRequestClient" />
+        <activity android:name=".EditUserDetails" />
+        <activity android:name=".SysLogin" />
+        <activity android:name=".SysHome" />
+        <activity android:name=".ClientRemove" />
+        <activity android:name=".FinaliseRequest"/>
+
+    </application>
+
+</manifest>
